@@ -1,0 +1,14 @@
+/* static/css/styles.css */
+body {
+    /* Specify the URL of the background image */
+    background-image: url('/static/images/background.jpg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+
+    /* Set the background to cover the entire viewport */
+    /* If you want the background to scroll with the content, remove this property */
+    min-height: 100vh;
+    margin: 0;
+}
