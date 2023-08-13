@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img src="/static/images/Logo.png" alt="My logo">
+    </header>
+    <h2>Login into your SkillUpNow account</h2>
+    <div>
+        <form action="/Home/loggedin/" method="post">
+            {% csrf_token %}
+            <input type="email" name="loginusername" required placeholder="Enter Email">
+            <br>
+            <br>
+            <div class="form-group">
+                <input type="password" class="form-control" id="" name="loginpassword" required placeholder="Enter your Password">
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    
+</body>
+</html>

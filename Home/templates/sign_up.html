@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <header>
+        <img src="/static/images/Logo.png" alt="My logo">
+    </header>
+    <h2>Create your account</h2>
+    <div>
+        <form action="/Home/newuser/" method="post">
+            {% csrf_token %}
+            <input type="email" name="username" required placeholder="Enter Email">
+            <br>
+            <br>
+            <div class="form-group">
+                <input type="password" class="form-control" id="" name="password" required placeholder="Enter your Password">
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="password" class="" id="" name="con_password" required placeholder="Enter your Password again">
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="SignUp">
+        </form>
+    </div>
+    
+</body>
+</html>
