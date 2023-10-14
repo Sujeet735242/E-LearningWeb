@@ -1,4 +1,20 @@
-/* static/css/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+:root{
+  --primary-color:red;
+}
+
+.navigation{
+  color: red;
+}
+
+/* 
 .logo
 {
   width: 300px;
@@ -16,21 +32,6 @@
   height: 500px;
 }
 
-body
-{
-    /* Specify the URL of the background image */
-    background-image: url('/static/images/background.jpg');
-
-    /* Set the background size and position */
-    background-size: cover;
-    background-position: center;
-
-    /* Set the background to cover the entire viewport */
-    /* If you want the background to scroll with the content, remove this property */
-    min-height: 100vh;
-    margin: 0;
-}
-
 nav
 {
     background-color: white;
@@ -41,7 +42,7 @@ nav
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Use 'flex' to create a horizontal menu */
+    display: flex;
   }
   
   nav li {
@@ -49,7 +50,7 @@ nav
   }
   
   nav li:last-child {
-    margin-right: 0; /* Remove the margin on the last menu item */
+    margin-right: 0;
   }
   
   nav a {
@@ -60,6 +61,6 @@ nav
   }
   
   nav a:hover {
-    color: #555; /* Change color on hover */
+    color: #555;
   }
-  
+   */

@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
-    <script src=""></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
 </head>
 <body>
-    <! --this div is for Menu-->
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Courses</a></li>
-            <li><a href="/Home/login/" target="_blank">Login</a></li>
-            <li><a href="/Home/signup/" target="_blank">SignUP</a></li>
-            <li><a href="">ContactUs</a></li>
-        </ul>
-    </nav>
+    <!--@Navigation Section-->
+    <div class="nav">
+        <nav class="navigaion">
+            <ul class="navigaion-list">
+                <li class="navigation-list-item"><a href="">Home</a></li>
+                <li class="navigation-list-item"><a href="">Courses</a></li>
+                <li class="navigation-list-item"><a href="/Home/login/" target="_blank">Login</a></li>
+                <li class="navigation-list-item"><a href="/Home/signup/" target="_blank">SignUP</a></li>
+                <li class="navigation-list-item"><a href="">ContactUs</a></li>
+            </ul>   
+        </nav>
+    </div>
+
+    <!-- @Header Section -->
     <header>
-        <img src="/static/images/Logo.png" alt="My Company Logo" class="logo">
+        <img src="/static/images/Logo.png" alt="My Company Logo">
     </header>
     <h1>Welcome to the SkillUpNow</h1>
     <div class="container">
-        <img src="/static/images/skill.png" alt="your_skills" class="right_part">
+        <img src="" alt="your_skills" class="right_part">
     </div>
 
     <p>Lorem consectetur adipisicing elit. Sit molestiae id qui atque alias aspernatur consectetur omnis animi, autem possimus dolorum itaque illo! Modi molestiae, dicta provident rem hic labore.</p>
+
 </body>
 </html>
